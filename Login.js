@@ -1,4 +1,4 @@
-// src/Login.js
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './App.css';
@@ -20,11 +20,11 @@ const Login = () => {
     <div>
       <h2>Login</h2>
       <div>
-        <label>Username: </label>
+        <label>EmployeeName: </label>
         <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
       </div>
       <div>
-        <label>Password: </label>
+        <label>Employee_Id: </label>
         <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
       </div>
       <button onClick={handleLogin}>Login</button>
