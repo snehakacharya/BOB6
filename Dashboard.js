@@ -13,7 +13,7 @@ const Dashboard = () => {
     event.preventDefault();
     if (selectedFile) {
       console.log('File submitted:', selectedFile);
-      // Add file upload logic here
+     
     } else {
       alert('Please select a file first');
     }
